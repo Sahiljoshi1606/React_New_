@@ -1,11 +1,11 @@
-import ClassBasedComp from "./component/ClassBasedComp";
-import FirstComp from "./component/FirstComp";
+import ClassBasedComp from "./Day-1-Component/ClassBasedComp";
+import FunctionBasedComp from "./Day-1-Component/FunctionBasedComp";
 import "./index.css";
 
 export default function App() {
   return (
     <>
-      <FirstComp />
+      <FunctionBasedComp />
       <ClassBasedComp />
     </>
   );
