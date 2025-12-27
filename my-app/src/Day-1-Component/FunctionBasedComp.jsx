@@ -2,6 +2,8 @@
 
 
 export default function FunctionBasedComp (){
+
+  
 return(
     <div class="page">
       <div class="card">
