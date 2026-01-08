@@ -8,6 +8,7 @@ import EventHandler from "./Day-5-component/EventHAndler";
 import LikeCounter from "./Day-5-component/LikeCounter";
 import Parent from "./Day-5-component/parent";
 import "./index.css";
+import MainApp from "./LoginForm/MainApp";
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
       {/* <ClassProps title = "Digital Clock"/> */}
       {/* <Parent /> */}
       {/* < LikeCounter/>  */}
-      < EventHandler/>
+      {/* <EventHandler /> */}
+      <MainApp />
     </>
   );
 }
