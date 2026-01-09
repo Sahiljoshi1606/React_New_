@@ -3,6 +3,7 @@
   color: #000000;
   height: 100vh;
   padding: 40px;
+  background-color: antiquewhite;
 }
 
 .dark {
@@ -20,6 +21,7 @@ input, button {
 
 button {
   cursor: pointer;
+ margin: auto;
 }
 
 Form {
@@ -33,6 +35,7 @@ Form {
   width: 50%;     
   margin-left: 350px;
   margin-top: 100px;  
+  border-radius: 20px;
 }
 
   

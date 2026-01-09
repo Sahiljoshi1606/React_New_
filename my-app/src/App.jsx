@@ -1,3 +1,4 @@
+
 import ClassBasedComp from "./Day-1-Component/ClassBasedComp";
 import FunctionBasedComp from "./Day-1-Component/FunctionBasedComp";
 import Project from "./Day-3Component/Project";
@@ -7,6 +8,7 @@ import Props from "./Day-4-component/Props";
 import EventHandler from "./Day-5-component/EventHAndler";
 import LikeCounter from "./Day-5-component/LikeCounter";
 import Parent from "./Day-5-component/parent";
+import List from "./Day-6-component/List";
 import "./index.css";
 import MainApp from "./LoginForm/MainApp";
 
@@ -22,7 +24,9 @@ export default function App() {
       {/* <Parent /> */}
       {/* < LikeCounter/>  */}
       {/* <EventHandler /> */}
-      <MainApp />
+      {/* <MainApp /> */}
+      <List />
+    
     </>
   );
 }
