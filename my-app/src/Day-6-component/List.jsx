@@ -87,7 +87,7 @@ export default function List() {
 
           <div className="d-flex align-items-center">
 
-            {/* Image */}
+           
             <img
               src={item.image}
               alt={item.title}
