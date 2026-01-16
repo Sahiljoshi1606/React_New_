@@ -13,6 +13,7 @@ import ABout from "./Day 1-2 - component/ABout";
 import Home from "./Day 1-2 - component/home";
 import Vashi from "./Day 1-2 - component/Vashi";
 import Bandra from "./Day 1-2 - component/Bandra";
+import Calculator from "./Day-3-component/useState-calculator";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
 
-      <Router>
+      {/* <Router>
         <nav>
           <ul>
             <li>
@@ -58,7 +59,8 @@ function App() {
           <Route path="vashi" Component={Vashi} />
           <Route path="bandra" Component={Bandra} />
         </Routes>
-      </Router>
+      </Router> */}
+      < Calculator/>
     </>
   );
 }
