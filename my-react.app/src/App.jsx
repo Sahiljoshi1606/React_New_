@@ -14,19 +14,14 @@ import Home from "./Day 1-2 - component/home";
 import Vashi from "./Day 1-2 - component/Vashi";
 import Bandra from "./Day 1-2 - component/Bandra";
 import Calculator from "./Day-3-component/useState-calculator";
+import Theam from "./Day-3-component/Theam";
+import UseREF from "./Day-4-component/UseREF";
+import UseEffect_UseNavigate from "./UseEffect_UseNavigate";
 
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      
 
       {/* <Router>
         <nav>
@@ -60,7 +55,10 @@ function App() {
           <Route path="bandra" Component={Bandra} />
         </Routes>
       </Router> */}
-      < Calculator/>
+      {/* < Calculator/> */}
+      {/* < Theam/> */}
+      {/* < UseREF/> */}
+      < UseEffect_UseNavigate/>
     </>
   );
 }

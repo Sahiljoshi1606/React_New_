@@ -43,6 +43,8 @@ export default function Calculator() {
 
   return (
     <div>
+      <h1>Assignment </h1>
+      <br />
       <h2>Calculator</h2>
 
       <input type="text" value={value}  />
