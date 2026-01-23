@@ -1,5 +1,3 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -21,8 +19,6 @@ import UseEffect_UseNavigate from "./UseEffect_UseNavigate";
 function App() {
   return (
     <>
-      
-
       {/* <Router>
         <nav>
           <ul>
@@ -58,7 +54,7 @@ function App() {
       {/* < Calculator/> */}
       {/* < Theam/> */}
       {/* < UseREF/> */}
-      < UseEffect_UseNavigate/>
+      <UseEffect_UseNavigate />
     </>
   );
 }

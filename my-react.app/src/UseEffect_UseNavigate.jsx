@@ -40,7 +40,7 @@ function UseEffect_UseNavigate() {
               <img
                 src={item.image}
                 alt={item.title}
-                style={{ width: "100px", height: "100px" }}
+                style={{ width: "100px", height: "90px" }}
               />
             </div>
           ))}
