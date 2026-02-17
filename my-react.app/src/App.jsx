@@ -15,6 +15,7 @@ import Calculator from "./Day-3-component/useState-calculator";
 import Theam from "./Day-3-component/Theam";
 import UseREF from "./Day-4-component/UseREF";
 import UseEffect_UseNavigate from "./UseEffect_UseNavigate";
+import Project from "./Project/Project";
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* < Calculator/> */}
       {/* < Theam/> */}
       {/* < UseREF/> */}
-      <UseEffect_UseNavigate />
+      {/* <UseEffect_UseNavigate /> */}
+      < Project/>
     </>
   );
 }

@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
-import PostHub from "./Test/PostHub";
+
 import "./Test/project.css"
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    < PostHub/>
+   < App/>
   </BrowserRouter>
 );
