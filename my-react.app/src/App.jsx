@@ -16,6 +16,8 @@ import Theam from "./Day-3-component/Theam";
 import UseREF from "./Day-4-component/UseREF";
 import UseEffect_UseNavigate from "./UseEffect_UseNavigate";
 import Project from "./Project/Project";
+import VitalApp from "./Project/Project2";
+import AuraWearApp from "./Project/Project2";
 
 function App() {
   return (
@@ -56,7 +58,8 @@ function App() {
       {/* < Theam/> */}
       {/* < UseREF/> */}
       {/* <UseEffect_UseNavigate /> */}
-      < Project/>
+      {/* < Project/> */}
+      <AuraWearApp/>
     </>
   );
 }
