@@ -18,6 +18,7 @@ import UseEffect_UseNavigate from "./UseEffect_UseNavigate";
 import Project from "./Project/Project";
 import VitalApp from "./Project/Project2";
 import AuraWearApp from "./Project/Project2";
+import AuraWear from "./Project/Project2";
 
 function App() {
   return (
@@ -59,7 +60,7 @@ function App() {
       {/* < UseREF/> */}
       {/* <UseEffect_UseNavigate /> */}
       {/* < Project/> */}
-      <AuraWearApp/>
+      <AuraWear/>
     </>
   );
 }

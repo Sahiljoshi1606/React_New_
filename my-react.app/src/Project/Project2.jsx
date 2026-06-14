@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Navbar = ({ cartCount }) => (
   <nav className="navbar navbar-expand-lg navbar-dark sticky-top p-3 shadow-lg" style={{ backdropFilter: "blur(15px)", backgroundColor: "rgba(0,0,0,0.7)", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
     <div className="container">
-      <Link className="navbar-brand fw-bold tracking-widest" to="/">Fasion<span className="text-warning">Brand</span></Link>
+      <Link className="navbar-brand fw-bold tracking-widest" to="/">Mama's<span className="text-warning">Brand</span></Link>
       <div className="navbar-nav ms-auto flex-row align-items-center">
         <Link className="nav-link px-2 mx-2 text-uppercase small text-white" to="/">HOME</Link>
         <Link className="nav-link px-2 mx-2 text-uppercase small text-white" to="/gents">Gents</Link>
@@ -104,7 +104,7 @@ const CategoryPage = ({ categoryTitle, apiCategory, addToCart }) => {
     <div className="container py-5 my-5">
       <h2 className="fw-bold text-white mb-5 text-center">{categoryTitle}</h2>
       <div className="row g-4">
-        {products.map(p => (
+        {products.map(p => (n
           <div key={p.id} className="col-md-3">
             <div className="card h-100 border-0 shadow" style={{ backgroundColor: "rgba(255, 255, 255, 0.08)", backdropFilter: "blur(10px)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "20px" }}>
               <div className="p-4" style={{ height: "250px", display: "flex", alignItems: "center" }}>
